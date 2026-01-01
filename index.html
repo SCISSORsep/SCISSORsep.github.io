@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Audio examples for SCISSOR: Score-Conditioned Instrument Source Separation for Orchestral Recordings." />
+    <meta name="color-scheme" content="light" />
+    <title>SCISSOR | Orchestral Source Separation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="SCISSOR home">
+          <span class="brand-mark" aria-hidden="true">✂</span><span>SCISSOR</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#overview">Overview</a>
+          <a href="#real">Real</a>
+          <a href="#synthetic">Synthetic</a>
+          <a href="#zeroshot">Zero-shot</a>
+          <a href="#corruption">Score corruption</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <p class="eyebrow">Audio examples</p>
+        <h1><em>SCISSOR</em>: Score-Conditioned Instrument Source Separation for Orchestral Recordings</h1>
+      </section>
+
+      <section id="overview" class="overview shell">
+        <article class="panel abstract">
+          <h2 class="panel-title">Abstract</h2>
+          <p>Orchestral separation recovers instrument sections from mixtures in which shared pitches, harmonics, and timbres obscure source identity. An aligned score provides instrument labels, note pitches, and activity times. A score-informed approach appends piano rolls to audio features before mask prediction. We introduce <em>SCISSOR</em> (Score-Conditioned Instrument Source Separation for Orchestral Recordings), which uses the score to form a frame-wise query for each source. Each query matches a shared audio representation, and a softmax over instrument and background slots jointly assigns overlapping time–frequency evidence. The queries retain instrument identity even when notes are missing from the score.</p>
+          <p>After training on SynthSOD and a small set of URMP and PHENICX-Anechoic recordings, SCISSOR achieves the highest average SDR on held-out real recordings. With SynthSOD-only training, it leads on SynthSOD and zero-shot PHENICX-Anechoic, and improves on its audio-only control on zero-shot URMP. SCISSOR also degrades less under score corruption than the evaluated score-based baselines.</p>
+        </article>
+        <figure class="panel figure">
+          <div class="figure-canvas">
+            <img src="assets/images/figure1-overview.svg" width="441" height="333" alt="SCISSOR architecture. The audio pathway encodes the mixture spectrogram into 96-band features; the score pathway turns aligned note events into frame-wise source queries with learnable slot identities. Cosine matching and a five-slot softmax assign audio evidence to sources, and a shared FiLM complex refiner produces masks for the four string stems." />
+          </div>
+          <figcaption><span>Figure 1</span>SCISSOR overview</figcaption>
+        </figure>
+      </section>
+
+      <section class="highlights shell" aria-label="Headline results">
+        <div class="panel stat"><span class="stat-value">6.80<small> dB</small></span><span class="stat-label">Held-out URMP, trained with real recordings</span></div>
+        <div class="panel stat"><span class="stat-value">6.31<small> dB</small></span><span class="stat-label">SynthSOD test set, 59 pieces</span></div>
+        <div class="panel stat"><span class="stat-value">1.85<small> dB</small></span><span class="stat-label">Zero-shot PHENICX-Anechoic</span></div>
+        <p class="fineprint">Average museval SDR over violin, viola, cello, and double bass; the highest among the evaluated systems in each setting.</p>
+      </section>
+
+      <section class="listen-intro shell">
+        <div class="panel how-to">
+          <p><strong>How to listen.</strong> Each box is one full recording. Columns are systems, rows are the mixture and the four string parts. Switching players within a box keeps the playback position, so you can compare systems at the same moment. On narrow screens, scroll each table sideways.</p>
+        </div>
+      </section>
+
+      <noscript><p class="shell notice">Enable JavaScript to load the audio examples.</p></noscript>
+      <div id="demo-sections" aria-live="polite"></div>
+    </main>
+
+    <footer class="site-footer shell">
+      <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">✂</span><span>SCISSOR</span></a>
+      <p>Score-Conditioned Instrument Source Separation for Orchestral Recordings</p>
+      <p class="footer-credit">© <span id="year"></span> SCISSOR</p>
+    </footer>
+    <script src="assets/js/site.js"></script>
+  </body>
+</html>

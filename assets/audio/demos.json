@@ -1,0 +1,1614 @@
+{
+  "demos": [
+    {
+      "table": "table1",
+      "piece": "38_Jerusalem_vn_vn_va_vc_db",
+      "title": "38 Jerusalem vn vn va vc db",
+      "corpus": "URMP",
+      "start_s": 0,
+      "duration": "01:59",
+      "gain": 1.0,
+      "mixture": "table1/38_Jerusalem_vn_vn_va_vc_db/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 6.43,
+          "tracks": {
+            "violin": "table1/38_Jerusalem_vn_vn_va_vc_db/a2_frame/violin.mp3",
+            "viola": "table1/38_Jerusalem_vn_vn_va_vc_db/a2_frame/viola.mp3",
+            "cello": "table1/38_Jerusalem_vn_vn_va_vc_db/a2_frame/cello.mp3",
+            "bass": "table1/38_Jerusalem_vn_vn_va_vc_db/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 5.36,
+          "tracks": {
+            "violin": "table1/38_Jerusalem_vn_vn_va_vc_db/b2_no_score/violin.mp3",
+            "viola": "table1/38_Jerusalem_vn_vn_va_vc_db/b2_no_score/viola.mp3",
+            "cello": "table1/38_Jerusalem_vn_vn_va_vc_db/b2_no_score/cello.mp3",
+            "bass": "table1/38_Jerusalem_vn_vn_va_vc_db/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 2.63,
+          "tracks": {
+            "violin": "table1/38_Jerusalem_vn_vn_va_vc_db/htdemucs/violin.mp3",
+            "viola": "table1/38_Jerusalem_vn_vn_va_vc_db/htdemucs/viola.mp3",
+            "cello": "table1/38_Jerusalem_vn_vn_va_vc_db/htdemucs/cello.mp3",
+            "bass": "table1/38_Jerusalem_vn_vn_va_vc_db/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 1.98,
+          "tracks": {
+            "violin": "table1/38_Jerusalem_vn_vn_va_vc_db/bs_roformer/violin.mp3",
+            "viola": "table1/38_Jerusalem_vn_vn_va_vc_db/bs_roformer/viola.mp3",
+            "cello": "table1/38_Jerusalem_vn_vn_va_vc_db/bs_roformer/cello.mp3",
+            "bass": "table1/38_Jerusalem_vn_vn_va_vc_db/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 4.3,
+          "tracks": {
+            "violin": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_noscore/violin.mp3",
+            "viola": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_noscore/viola.mp3",
+            "cello": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_noscore/cello.mp3",
+            "bass": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 4.33,
+          "tracks": {
+            "violin": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_input_concat/violin.mp3",
+            "viola": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_input_concat/viola.mp3",
+            "cello": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_input_concat/cello.mp3",
+            "bass": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 5.06,
+          "tracks": {
+            "violin": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_noaudio/violin.mp3",
+            "viola": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_noaudio/viola.mp3",
+            "cello": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_noaudio/cello.mp3",
+            "bass": "table1/38_Jerusalem_vn_vn_va_vc_db/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "table": "table1",
+      "piece": "35_Rondeau_vn_vn_va_db",
+      "title": "35 Rondeau vn vn va db",
+      "corpus": "URMP",
+      "start_s": 0,
+      "duration": "02:08",
+      "gain": 1.0,
+      "mixture": "table1/35_Rondeau_vn_vn_va_db/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 8.98,
+          "tracks": {
+            "violin": "table1/35_Rondeau_vn_vn_va_db/a2_frame/violin.mp3",
+            "viola": "table1/35_Rondeau_vn_vn_va_db/a2_frame/viola.mp3",
+            "cello": "table1/35_Rondeau_vn_vn_va_db/a2_frame/cello.mp3",
+            "bass": "table1/35_Rondeau_vn_vn_va_db/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 6.6,
+          "tracks": {
+            "violin": "table1/35_Rondeau_vn_vn_va_db/b2_no_score/violin.mp3",
+            "viola": "table1/35_Rondeau_vn_vn_va_db/b2_no_score/viola.mp3",
+            "cello": "table1/35_Rondeau_vn_vn_va_db/b2_no_score/cello.mp3",
+            "bass": "table1/35_Rondeau_vn_vn_va_db/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 5.09,
+          "tracks": {
+            "violin": "table1/35_Rondeau_vn_vn_va_db/htdemucs/violin.mp3",
+            "viola": "table1/35_Rondeau_vn_vn_va_db/htdemucs/viola.mp3",
+            "cello": "table1/35_Rondeau_vn_vn_va_db/htdemucs/cello.mp3",
+            "bass": "table1/35_Rondeau_vn_vn_va_db/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 3.51,
+          "tracks": {
+            "violin": "table1/35_Rondeau_vn_vn_va_db/bs_roformer/violin.mp3",
+            "viola": "table1/35_Rondeau_vn_vn_va_db/bs_roformer/viola.mp3",
+            "cello": "table1/35_Rondeau_vn_vn_va_db/bs_roformer/cello.mp3",
+            "bass": "table1/35_Rondeau_vn_vn_va_db/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 4.24,
+          "tracks": {
+            "violin": "table1/35_Rondeau_vn_vn_va_db/score_mss_noscore/violin.mp3",
+            "viola": "table1/35_Rondeau_vn_vn_va_db/score_mss_noscore/viola.mp3",
+            "cello": "table1/35_Rondeau_vn_vn_va_db/score_mss_noscore/cello.mp3",
+            "bass": "table1/35_Rondeau_vn_vn_va_db/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 5.3,
+          "tracks": {
+            "violin": "table1/35_Rondeau_vn_vn_va_db/score_mss_input_concat/violin.mp3",
+            "viola": "table1/35_Rondeau_vn_vn_va_db/score_mss_input_concat/viola.mp3",
+            "cello": "table1/35_Rondeau_vn_vn_va_db/score_mss_input_concat/cello.mp3",
+            "bass": "table1/35_Rondeau_vn_vn_va_db/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 7.17,
+          "tracks": {
+            "violin": "table1/35_Rondeau_vn_vn_va_db/score_mss_noaudio/violin.mp3",
+            "viola": "table1/35_Rondeau_vn_vn_va_db/score_mss_noaudio/viola.mp3",
+            "cello": "table1/35_Rondeau_vn_vn_va_db/score_mss_noaudio/cello.mp3",
+            "bass": "table1/35_Rondeau_vn_vn_va_db/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "table": "table1",
+      "piece": "36_Rondeau_vn_vn_va_vc",
+      "title": "36 Rondeau vn vn va vc",
+      "corpus": "URMP",
+      "start_s": 0,
+      "duration": "02:08",
+      "gain": 1.0,
+      "mixture": "table1/36_Rondeau_vn_vn_va_vc/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 6.9,
+          "tracks": {
+            "violin": "table1/36_Rondeau_vn_vn_va_vc/a2_frame/violin.mp3",
+            "viola": "table1/36_Rondeau_vn_vn_va_vc/a2_frame/viola.mp3",
+            "cello": "table1/36_Rondeau_vn_vn_va_vc/a2_frame/cello.mp3",
+            "bass": "table1/36_Rondeau_vn_vn_va_vc/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 4.36,
+          "tracks": {
+            "violin": "table1/36_Rondeau_vn_vn_va_vc/b2_no_score/violin.mp3",
+            "viola": "table1/36_Rondeau_vn_vn_va_vc/b2_no_score/viola.mp3",
+            "cello": "table1/36_Rondeau_vn_vn_va_vc/b2_no_score/cello.mp3",
+            "bass": "table1/36_Rondeau_vn_vn_va_vc/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 3.37,
+          "tracks": {
+            "violin": "table1/36_Rondeau_vn_vn_va_vc/htdemucs/violin.mp3",
+            "viola": "table1/36_Rondeau_vn_vn_va_vc/htdemucs/viola.mp3",
+            "cello": "table1/36_Rondeau_vn_vn_va_vc/htdemucs/cello.mp3",
+            "bass": "table1/36_Rondeau_vn_vn_va_vc/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 2.79,
+          "tracks": {
+            "violin": "table1/36_Rondeau_vn_vn_va_vc/bs_roformer/violin.mp3",
+            "viola": "table1/36_Rondeau_vn_vn_va_vc/bs_roformer/viola.mp3",
+            "cello": "table1/36_Rondeau_vn_vn_va_vc/bs_roformer/cello.mp3",
+            "bass": "table1/36_Rondeau_vn_vn_va_vc/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 3.06,
+          "tracks": {
+            "violin": "table1/36_Rondeau_vn_vn_va_vc/score_mss_noscore/violin.mp3",
+            "viola": "table1/36_Rondeau_vn_vn_va_vc/score_mss_noscore/viola.mp3",
+            "cello": "table1/36_Rondeau_vn_vn_va_vc/score_mss_noscore/cello.mp3",
+            "bass": "table1/36_Rondeau_vn_vn_va_vc/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 3.9,
+          "tracks": {
+            "violin": "table1/36_Rondeau_vn_vn_va_vc/score_mss_input_concat/violin.mp3",
+            "viola": "table1/36_Rondeau_vn_vn_va_vc/score_mss_input_concat/viola.mp3",
+            "cello": "table1/36_Rondeau_vn_vn_va_vc/score_mss_input_concat/cello.mp3",
+            "bass": "table1/36_Rondeau_vn_vn_va_vc/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 5.59,
+          "tracks": {
+            "violin": "table1/36_Rondeau_vn_vn_va_vc/score_mss_noaudio/violin.mp3",
+            "viola": "table1/36_Rondeau_vn_vn_va_vc/score_mss_noaudio/viola.mp3",
+            "cello": "table1/36_Rondeau_vn_vn_va_vc/score_mss_noaudio/cello.mp3",
+            "bass": "table1/36_Rondeau_vn_vn_va_vc/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "table": "table1",
+      "piece": "phenicx_mahler",
+      "title": "phenicx mahler",
+      "corpus": "PHENICX-Anechoic",
+      "start_s": 0,
+      "duration": "02:12",
+      "gain": 0.190949,
+      "mixture": "table1/phenicx_mahler/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 1.84,
+          "tracks": {
+            "violin": "table1/phenicx_mahler/a2_frame/violin.mp3",
+            "viola": "table1/phenicx_mahler/a2_frame/viola.mp3",
+            "cello": "table1/phenicx_mahler/a2_frame/cello.mp3",
+            "bass": "table1/phenicx_mahler/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 1.64,
+          "tracks": {
+            "violin": "table1/phenicx_mahler/b2_no_score/violin.mp3",
+            "viola": "table1/phenicx_mahler/b2_no_score/viola.mp3",
+            "cello": "table1/phenicx_mahler/b2_no_score/cello.mp3",
+            "bass": "table1/phenicx_mahler/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": -4.12,
+          "tracks": {
+            "violin": "table1/phenicx_mahler/htdemucs/violin.mp3",
+            "viola": "table1/phenicx_mahler/htdemucs/viola.mp3",
+            "cello": "table1/phenicx_mahler/htdemucs/cello.mp3",
+            "bass": "table1/phenicx_mahler/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 0.32,
+          "tracks": {
+            "violin": "table1/phenicx_mahler/bs_roformer/violin.mp3",
+            "viola": "table1/phenicx_mahler/bs_roformer/viola.mp3",
+            "cello": "table1/phenicx_mahler/bs_roformer/cello.mp3",
+            "bass": "table1/phenicx_mahler/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": -0.54,
+          "tracks": {
+            "violin": "table1/phenicx_mahler/score_mss_noscore/violin.mp3",
+            "viola": "table1/phenicx_mahler/score_mss_noscore/viola.mp3",
+            "cello": "table1/phenicx_mahler/score_mss_noscore/cello.mp3",
+            "bass": "table1/phenicx_mahler/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": -0.29,
+          "tracks": {
+            "violin": "table1/phenicx_mahler/score_mss_input_concat/violin.mp3",
+            "viola": "table1/phenicx_mahler/score_mss_input_concat/viola.mp3",
+            "cello": "table1/phenicx_mahler/score_mss_input_concat/cello.mp3",
+            "bass": "table1/phenicx_mahler/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": -1.62,
+          "tracks": {
+            "violin": "table1/phenicx_mahler/score_mss_noaudio/violin.mp3",
+            "viola": "table1/phenicx_mahler/score_mss_noaudio/viola.mp3",
+            "cello": "table1/phenicx_mahler/score_mss_noaudio/cello.mp3",
+            "bass": "table1/phenicx_mahler/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "table": "table1",
+      "piece": "phenicx_bruckner",
+      "title": "phenicx bruckner",
+      "corpus": "PHENICX-Anechoic",
+      "start_s": 0,
+      "duration": "01:27",
+      "gain": 0.129452,
+      "mixture": "table1/phenicx_bruckner/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 5.01,
+          "tracks": {
+            "violin": "table1/phenicx_bruckner/a2_frame/violin.mp3",
+            "viola": "table1/phenicx_bruckner/a2_frame/viola.mp3",
+            "cello": "table1/phenicx_bruckner/a2_frame/cello.mp3",
+            "bass": "table1/phenicx_bruckner/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 4.55,
+          "tracks": {
+            "violin": "table1/phenicx_bruckner/b2_no_score/violin.mp3",
+            "viola": "table1/phenicx_bruckner/b2_no_score/viola.mp3",
+            "cello": "table1/phenicx_bruckner/b2_no_score/cello.mp3",
+            "bass": "table1/phenicx_bruckner/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 0.69,
+          "tracks": {
+            "violin": "table1/phenicx_bruckner/htdemucs/violin.mp3",
+            "viola": "table1/phenicx_bruckner/htdemucs/viola.mp3",
+            "cello": "table1/phenicx_bruckner/htdemucs/cello.mp3",
+            "bass": "table1/phenicx_bruckner/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 3.21,
+          "tracks": {
+            "violin": "table1/phenicx_bruckner/bs_roformer/violin.mp3",
+            "viola": "table1/phenicx_bruckner/bs_roformer/viola.mp3",
+            "cello": "table1/phenicx_bruckner/bs_roformer/cello.mp3",
+            "bass": "table1/phenicx_bruckner/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 4.18,
+          "tracks": {
+            "violin": "table1/phenicx_bruckner/score_mss_noscore/violin.mp3",
+            "viola": "table1/phenicx_bruckner/score_mss_noscore/viola.mp3",
+            "cello": "table1/phenicx_bruckner/score_mss_noscore/cello.mp3",
+            "bass": "table1/phenicx_bruckner/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 4.41,
+          "tracks": {
+            "violin": "table1/phenicx_bruckner/score_mss_input_concat/violin.mp3",
+            "viola": "table1/phenicx_bruckner/score_mss_input_concat/viola.mp3",
+            "cello": "table1/phenicx_bruckner/score_mss_input_concat/cello.mp3",
+            "bass": "table1/phenicx_bruckner/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 4.57,
+          "tracks": {
+            "violin": "table1/phenicx_bruckner/score_mss_noaudio/violin.mp3",
+            "viola": "table1/phenicx_bruckner/score_mss_noaudio/viola.mp3",
+            "cello": "table1/phenicx_bruckner/score_mss_noaudio/cello.mp3",
+            "bass": "table1/phenicx_bruckner/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "table": "table2",
+      "piece": "strings_serenade_2_orch",
+      "title": "strings serenade 2 orch",
+      "corpus": "SynthSOD",
+      "start_s": 0,
+      "duration": "05:53",
+      "gain": 1.0,
+      "mixture": "table2/strings_serenade_2_orch/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 5.61,
+          "tracks": {
+            "violin": "table2/strings_serenade_2_orch/a2_frame/violin.mp3",
+            "viola": "table2/strings_serenade_2_orch/a2_frame/viola.mp3",
+            "cello": "table2/strings_serenade_2_orch/a2_frame/cello.mp3",
+            "bass": "table2/strings_serenade_2_orch/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 5.13,
+          "tracks": {
+            "violin": "table2/strings_serenade_2_orch/b2_no_score/violin.mp3",
+            "viola": "table2/strings_serenade_2_orch/b2_no_score/viola.mp3",
+            "cello": "table2/strings_serenade_2_orch/b2_no_score/cello.mp3",
+            "bass": "table2/strings_serenade_2_orch/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 4.11,
+          "tracks": {
+            "violin": "table2/strings_serenade_2_orch/htdemucs/violin.mp3",
+            "viola": "table2/strings_serenade_2_orch/htdemucs/viola.mp3",
+            "cello": "table2/strings_serenade_2_orch/htdemucs/cello.mp3",
+            "bass": "table2/strings_serenade_2_orch/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 2.92,
+          "tracks": {
+            "violin": "table2/strings_serenade_2_orch/bs_roformer/violin.mp3",
+            "viola": "table2/strings_serenade_2_orch/bs_roformer/viola.mp3",
+            "cello": "table2/strings_serenade_2_orch/bs_roformer/cello.mp3",
+            "bass": "table2/strings_serenade_2_orch/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 4.36,
+          "tracks": {
+            "violin": "table2/strings_serenade_2_orch/score_mss_noscore/violin.mp3",
+            "viola": "table2/strings_serenade_2_orch/score_mss_noscore/viola.mp3",
+            "cello": "table2/strings_serenade_2_orch/score_mss_noscore/cello.mp3",
+            "bass": "table2/strings_serenade_2_orch/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 4.63,
+          "tracks": {
+            "violin": "table2/strings_serenade_2_orch/score_mss_input_concat/violin.mp3",
+            "viola": "table2/strings_serenade_2_orch/score_mss_input_concat/viola.mp3",
+            "cello": "table2/strings_serenade_2_orch/score_mss_input_concat/cello.mp3",
+            "bass": "table2/strings_serenade_2_orch/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 3.37,
+          "tracks": {
+            "violin": "table2/strings_serenade_2_orch/score_mss_noaudio/violin.mp3",
+            "viola": "table2/strings_serenade_2_orch/score_mss_noaudio/viola.mp3",
+            "cello": "table2/strings_serenade_2_orch/score_mss_noaudio/cello.mp3",
+            "bass": "table2/strings_serenade_2_orch/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "table": "table2",
+      "piece": "symphony_1_4_orch",
+      "title": "symphony 1 4 orch",
+      "corpus": "SynthSOD",
+      "start_s": 0,
+      "duration": "04:59",
+      "gain": 1.0,
+      "mixture": "table2/symphony_1_4_orch/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 5.29,
+          "tracks": {
+            "violin": "table2/symphony_1_4_orch/a2_frame/violin.mp3",
+            "viola": "table2/symphony_1_4_orch/a2_frame/viola.mp3",
+            "cello": "table2/symphony_1_4_orch/a2_frame/cello.mp3",
+            "bass": "table2/symphony_1_4_orch/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 4.86,
+          "tracks": {
+            "violin": "table2/symphony_1_4_orch/b2_no_score/violin.mp3",
+            "viola": "table2/symphony_1_4_orch/b2_no_score/viola.mp3",
+            "cello": "table2/symphony_1_4_orch/b2_no_score/cello.mp3",
+            "bass": "table2/symphony_1_4_orch/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 2.7,
+          "tracks": {
+            "violin": "table2/symphony_1_4_orch/htdemucs/violin.mp3",
+            "viola": "table2/symphony_1_4_orch/htdemucs/viola.mp3",
+            "cello": "table2/symphony_1_4_orch/htdemucs/cello.mp3",
+            "bass": "table2/symphony_1_4_orch/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 2.38,
+          "tracks": {
+            "violin": "table2/symphony_1_4_orch/bs_roformer/violin.mp3",
+            "viola": "table2/symphony_1_4_orch/bs_roformer/viola.mp3",
+            "cello": "table2/symphony_1_4_orch/bs_roformer/cello.mp3",
+            "bass": "table2/symphony_1_4_orch/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 4.3,
+          "tracks": {
+            "violin": "table2/symphony_1_4_orch/score_mss_noscore/violin.mp3",
+            "viola": "table2/symphony_1_4_orch/score_mss_noscore/viola.mp3",
+            "cello": "table2/symphony_1_4_orch/score_mss_noscore/cello.mp3",
+            "bass": "table2/symphony_1_4_orch/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 4.71,
+          "tracks": {
+            "violin": "table2/symphony_1_4_orch/score_mss_input_concat/violin.mp3",
+            "viola": "table2/symphony_1_4_orch/score_mss_input_concat/viola.mp3",
+            "cello": "table2/symphony_1_4_orch/score_mss_input_concat/cello.mp3",
+            "bass": "table2/symphony_1_4_orch/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 3.9,
+          "tracks": {
+            "violin": "table2/symphony_1_4_orch/score_mss_noaudio/violin.mp3",
+            "viola": "table2/symphony_1_4_orch/score_mss_noaudio/viola.mp3",
+            "cello": "table2/symphony_1_4_orch/score_mss_noaudio/cello.mp3",
+            "bass": "table2/symphony_1_4_orch/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "table": "table2",
+      "piece": "symphony_090_1_orch",
+      "title": "symphony 090 1 orch",
+      "corpus": "SynthSOD",
+      "start_s": 0,
+      "duration": "08:36",
+      "gain": 1.0,
+      "mixture": "table2/symphony_090_1_orch/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 4.88,
+          "tracks": {
+            "violin": "table2/symphony_090_1_orch/a2_frame/violin.mp3",
+            "viola": "table2/symphony_090_1_orch/a2_frame/viola.mp3",
+            "cello": "table2/symphony_090_1_orch/a2_frame/cello.mp3",
+            "bass": "table2/symphony_090_1_orch/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 4.53,
+          "tracks": {
+            "violin": "table2/symphony_090_1_orch/b2_no_score/violin.mp3",
+            "viola": "table2/symphony_090_1_orch/b2_no_score/viola.mp3",
+            "cello": "table2/symphony_090_1_orch/b2_no_score/cello.mp3",
+            "bass": "table2/symphony_090_1_orch/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 2.97,
+          "tracks": {
+            "violin": "table2/symphony_090_1_orch/htdemucs/violin.mp3",
+            "viola": "table2/symphony_090_1_orch/htdemucs/viola.mp3",
+            "cello": "table2/symphony_090_1_orch/htdemucs/cello.mp3",
+            "bass": "table2/symphony_090_1_orch/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 2.87,
+          "tracks": {
+            "violin": "table2/symphony_090_1_orch/bs_roformer/violin.mp3",
+            "viola": "table2/symphony_090_1_orch/bs_roformer/viola.mp3",
+            "cello": "table2/symphony_090_1_orch/bs_roformer/cello.mp3",
+            "bass": "table2/symphony_090_1_orch/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 4.08,
+          "tracks": {
+            "violin": "table2/symphony_090_1_orch/score_mss_noscore/violin.mp3",
+            "viola": "table2/symphony_090_1_orch/score_mss_noscore/viola.mp3",
+            "cello": "table2/symphony_090_1_orch/score_mss_noscore/cello.mp3",
+            "bass": "table2/symphony_090_1_orch/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 4.37,
+          "tracks": {
+            "violin": "table2/symphony_090_1_orch/score_mss_input_concat/violin.mp3",
+            "viola": "table2/symphony_090_1_orch/score_mss_input_concat/viola.mp3",
+            "cello": "table2/symphony_090_1_orch/score_mss_input_concat/cello.mp3",
+            "bass": "table2/symphony_090_1_orch/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 3.16,
+          "tracks": {
+            "violin": "table2/symphony_090_1_orch/score_mss_noaudio/violin.mp3",
+            "viola": "table2/symphony_090_1_orch/score_mss_noaudio/viola.mp3",
+            "cello": "table2/symphony_090_1_orch/score_mss_noaudio/cello.mp3",
+            "bass": "table2/symphony_090_1_orch/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "table": "zeroshot",
+      "piece": "38_Jerusalem_vn_vn_va_vc_db",
+      "title": "38 Jerusalem vn vn va vc db",
+      "corpus": "URMP",
+      "start_s": 0,
+      "duration": "01:59",
+      "gain": 1.0,
+      "mixture": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 1.26,
+          "tracks": {
+            "violin": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/a2_frame/violin.mp3",
+            "viola": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/a2_frame/viola.mp3",
+            "cello": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/a2_frame/cello.mp3",
+            "bass": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 0.89,
+          "tracks": {
+            "violin": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/b2_no_score/violin.mp3",
+            "viola": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/b2_no_score/viola.mp3",
+            "cello": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/b2_no_score/cello.mp3",
+            "bass": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 0.72,
+          "tracks": {
+            "violin": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/htdemucs/violin.mp3",
+            "viola": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/htdemucs/viola.mp3",
+            "cello": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/htdemucs/cello.mp3",
+            "bass": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 0.53,
+          "tracks": {
+            "violin": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/bs_roformer/violin.mp3",
+            "viola": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/bs_roformer/viola.mp3",
+            "cello": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/bs_roformer/cello.mp3",
+            "bass": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 0.51,
+          "tracks": {
+            "violin": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_noscore/violin.mp3",
+            "viola": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_noscore/viola.mp3",
+            "cello": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_noscore/cello.mp3",
+            "bass": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 1.88,
+          "tracks": {
+            "violin": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_input_concat/violin.mp3",
+            "viola": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_input_concat/viola.mp3",
+            "cello": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_input_concat/cello.mp3",
+            "bass": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 3.64,
+          "tracks": {
+            "violin": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_noaudio/violin.mp3",
+            "viola": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_noaudio/viola.mp3",
+            "cello": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_noaudio/cello.mp3",
+            "bass": "zeroshot/38_Jerusalem_vn_vn_va_vc_db/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "table": "zeroshot",
+      "piece": "24_Pirates_vn_vn_va_vc",
+      "title": "24 Pirates vn vn va vc",
+      "corpus": "URMP",
+      "start_s": 0,
+      "duration": "00:50",
+      "gain": 1.0,
+      "mixture": "zeroshot/24_Pirates_vn_vn_va_vc/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 3.79,
+          "tracks": {
+            "violin": "zeroshot/24_Pirates_vn_vn_va_vc/a2_frame/violin.mp3",
+            "viola": "zeroshot/24_Pirates_vn_vn_va_vc/a2_frame/viola.mp3",
+            "cello": "zeroshot/24_Pirates_vn_vn_va_vc/a2_frame/cello.mp3",
+            "bass": "zeroshot/24_Pirates_vn_vn_va_vc/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 2.66,
+          "tracks": {
+            "violin": "zeroshot/24_Pirates_vn_vn_va_vc/b2_no_score/violin.mp3",
+            "viola": "zeroshot/24_Pirates_vn_vn_va_vc/b2_no_score/viola.mp3",
+            "cello": "zeroshot/24_Pirates_vn_vn_va_vc/b2_no_score/cello.mp3",
+            "bass": "zeroshot/24_Pirates_vn_vn_va_vc/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 4.35,
+          "tracks": {
+            "violin": "zeroshot/24_Pirates_vn_vn_va_vc/htdemucs/violin.mp3",
+            "viola": "zeroshot/24_Pirates_vn_vn_va_vc/htdemucs/viola.mp3",
+            "cello": "zeroshot/24_Pirates_vn_vn_va_vc/htdemucs/cello.mp3",
+            "bass": "zeroshot/24_Pirates_vn_vn_va_vc/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 2.39,
+          "tracks": {
+            "violin": "zeroshot/24_Pirates_vn_vn_va_vc/bs_roformer/violin.mp3",
+            "viola": "zeroshot/24_Pirates_vn_vn_va_vc/bs_roformer/viola.mp3",
+            "cello": "zeroshot/24_Pirates_vn_vn_va_vc/bs_roformer/cello.mp3",
+            "bass": "zeroshot/24_Pirates_vn_vn_va_vc/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 2.96,
+          "tracks": {
+            "violin": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_noscore/violin.mp3",
+            "viola": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_noscore/viola.mp3",
+            "cello": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_noscore/cello.mp3",
+            "bass": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 3.25,
+          "tracks": {
+            "violin": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_input_concat/violin.mp3",
+            "viola": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_input_concat/viola.mp3",
+            "cello": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_input_concat/cello.mp3",
+            "bass": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 5.14,
+          "tracks": {
+            "violin": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_noaudio/violin.mp3",
+            "viola": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_noaudio/viola.mp3",
+            "cello": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_noaudio/cello.mp3",
+            "bass": "zeroshot/24_Pirates_vn_vn_va_vc/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "table": "zeroshot",
+      "piece": "35_Rondeau_vn_vn_va_db",
+      "title": "35 Rondeau vn vn va db",
+      "corpus": "URMP",
+      "start_s": 0,
+      "duration": "02:08",
+      "gain": 1.0,
+      "mixture": "zeroshot/35_Rondeau_vn_vn_va_db/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 2.35,
+          "tracks": {
+            "violin": "zeroshot/35_Rondeau_vn_vn_va_db/a2_frame/violin.mp3",
+            "viola": "zeroshot/35_Rondeau_vn_vn_va_db/a2_frame/viola.mp3",
+            "cello": "zeroshot/35_Rondeau_vn_vn_va_db/a2_frame/cello.mp3",
+            "bass": "zeroshot/35_Rondeau_vn_vn_va_db/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 1.5,
+          "tracks": {
+            "violin": "zeroshot/35_Rondeau_vn_vn_va_db/b2_no_score/violin.mp3",
+            "viola": "zeroshot/35_Rondeau_vn_vn_va_db/b2_no_score/viola.mp3",
+            "cello": "zeroshot/35_Rondeau_vn_vn_va_db/b2_no_score/cello.mp3",
+            "bass": "zeroshot/35_Rondeau_vn_vn_va_db/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 2.13,
+          "tracks": {
+            "violin": "zeroshot/35_Rondeau_vn_vn_va_db/htdemucs/violin.mp3",
+            "viola": "zeroshot/35_Rondeau_vn_vn_va_db/htdemucs/viola.mp3",
+            "cello": "zeroshot/35_Rondeau_vn_vn_va_db/htdemucs/cello.mp3",
+            "bass": "zeroshot/35_Rondeau_vn_vn_va_db/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 2.36,
+          "tracks": {
+            "violin": "zeroshot/35_Rondeau_vn_vn_va_db/bs_roformer/violin.mp3",
+            "viola": "zeroshot/35_Rondeau_vn_vn_va_db/bs_roformer/viola.mp3",
+            "cello": "zeroshot/35_Rondeau_vn_vn_va_db/bs_roformer/cello.mp3",
+            "bass": "zeroshot/35_Rondeau_vn_vn_va_db/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 1.25,
+          "tracks": {
+            "violin": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_noscore/violin.mp3",
+            "viola": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_noscore/viola.mp3",
+            "cello": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_noscore/cello.mp3",
+            "bass": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 3.21,
+          "tracks": {
+            "violin": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_input_concat/violin.mp3",
+            "viola": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_input_concat/viola.mp3",
+            "cello": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_input_concat/cello.mp3",
+            "bass": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 6.08,
+          "tracks": {
+            "violin": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_noaudio/violin.mp3",
+            "viola": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_noaudio/viola.mp3",
+            "cello": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_noaudio/cello.mp3",
+            "bass": "zeroshot/35_Rondeau_vn_vn_va_db/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "table": "zeroshot",
+      "piece": "phenicx_mozart",
+      "title": "phenicx mozart",
+      "corpus": "PHENICX-Anechoic",
+      "start_s": 0,
+      "duration": "03:47",
+      "gain": 0.311358,
+      "mixture": "zeroshot/phenicx_mozart/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 2.78,
+          "tracks": {
+            "violin": "zeroshot/phenicx_mozart/a2_frame/violin.mp3",
+            "viola": "zeroshot/phenicx_mozart/a2_frame/viola.mp3",
+            "cello": "zeroshot/phenicx_mozart/a2_frame/cello.mp3",
+            "bass": "zeroshot/phenicx_mozart/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 2.5,
+          "tracks": {
+            "violin": "zeroshot/phenicx_mozart/b2_no_score/violin.mp3",
+            "viola": "zeroshot/phenicx_mozart/b2_no_score/viola.mp3",
+            "cello": "zeroshot/phenicx_mozart/b2_no_score/cello.mp3",
+            "bass": "zeroshot/phenicx_mozart/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 1.2,
+          "tracks": {
+            "violin": "zeroshot/phenicx_mozart/htdemucs/violin.mp3",
+            "viola": "zeroshot/phenicx_mozart/htdemucs/viola.mp3",
+            "cello": "zeroshot/phenicx_mozart/htdemucs/cello.mp3",
+            "bass": "zeroshot/phenicx_mozart/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": 0.16,
+          "tracks": {
+            "violin": "zeroshot/phenicx_mozart/bs_roformer/violin.mp3",
+            "viola": "zeroshot/phenicx_mozart/bs_roformer/viola.mp3",
+            "cello": "zeroshot/phenicx_mozart/bs_roformer/cello.mp3",
+            "bass": "zeroshot/phenicx_mozart/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 2.35,
+          "tracks": {
+            "violin": "zeroshot/phenicx_mozart/score_mss_noscore/violin.mp3",
+            "viola": "zeroshot/phenicx_mozart/score_mss_noscore/viola.mp3",
+            "cello": "zeroshot/phenicx_mozart/score_mss_noscore/cello.mp3",
+            "bass": "zeroshot/phenicx_mozart/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 2.35,
+          "tracks": {
+            "violin": "zeroshot/phenicx_mozart/score_mss_input_concat/violin.mp3",
+            "viola": "zeroshot/phenicx_mozart/score_mss_input_concat/viola.mp3",
+            "cello": "zeroshot/phenicx_mozart/score_mss_input_concat/cello.mp3",
+            "bass": "zeroshot/phenicx_mozart/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 3.39,
+          "tracks": {
+            "violin": "zeroshot/phenicx_mozart/score_mss_noaudio/violin.mp3",
+            "viola": "zeroshot/phenicx_mozart/score_mss_noaudio/viola.mp3",
+            "cello": "zeroshot/phenicx_mozart/score_mss_noaudio/cello.mp3",
+            "bass": "zeroshot/phenicx_mozart/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "table": "zeroshot",
+      "piece": "phenicx_bruckner",
+      "title": "phenicx bruckner",
+      "corpus": "PHENICX-Anechoic",
+      "start_s": 0,
+      "duration": "01:27",
+      "gain": 0.129452,
+      "mixture": "zeroshot/phenicx_bruckner/mixture.mp3",
+      "models": {
+        "a2_frame": {
+          "label": "SCISSOR",
+          "sdr": 2.41,
+          "tracks": {
+            "violin": "zeroshot/phenicx_bruckner/a2_frame/violin.mp3",
+            "viola": "zeroshot/phenicx_bruckner/a2_frame/viola.mp3",
+            "cello": "zeroshot/phenicx_bruckner/a2_frame/cello.mp3",
+            "bass": "zeroshot/phenicx_bruckner/a2_frame/bass.mp3"
+          }
+        },
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "sdr": 1.64,
+          "tracks": {
+            "violin": "zeroshot/phenicx_bruckner/b2_no_score/violin.mp3",
+            "viola": "zeroshot/phenicx_bruckner/b2_no_score/viola.mp3",
+            "cello": "zeroshot/phenicx_bruckner/b2_no_score/cello.mp3",
+            "bass": "zeroshot/phenicx_bruckner/b2_no_score/bass.mp3"
+          }
+        },
+        "htdemucs": {
+          "label": "HTDemucs",
+          "sdr": 0.51,
+          "tracks": {
+            "violin": "zeroshot/phenicx_bruckner/htdemucs/violin.mp3",
+            "viola": "zeroshot/phenicx_bruckner/htdemucs/viola.mp3",
+            "cello": "zeroshot/phenicx_bruckner/htdemucs/cello.mp3",
+            "bass": "zeroshot/phenicx_bruckner/htdemucs/bass.mp3"
+          }
+        },
+        "bs_roformer": {
+          "label": "BS-RoFormer",
+          "sdr": -0.68,
+          "tracks": {
+            "violin": "zeroshot/phenicx_bruckner/bs_roformer/violin.mp3",
+            "viola": "zeroshot/phenicx_bruckner/bs_roformer/viola.mp3",
+            "cello": "zeroshot/phenicx_bruckner/bs_roformer/cello.mp3",
+            "bass": "zeroshot/phenicx_bruckner/bs_roformer/bass.mp3"
+          }
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "sdr": 1.14,
+          "tracks": {
+            "violin": "zeroshot/phenicx_bruckner/score_mss_noscore/violin.mp3",
+            "viola": "zeroshot/phenicx_bruckner/score_mss_noscore/viola.mp3",
+            "cello": "zeroshot/phenicx_bruckner/score_mss_noscore/cello.mp3",
+            "bass": "zeroshot/phenicx_bruckner/score_mss_noscore/bass.mp3"
+          }
+        },
+        "score_mss_input_concat": {
+          "label": "Tunturi score-informed",
+          "sdr": 1.36,
+          "tracks": {
+            "violin": "zeroshot/phenicx_bruckner/score_mss_input_concat/violin.mp3",
+            "viola": "zeroshot/phenicx_bruckner/score_mss_input_concat/viola.mp3",
+            "cello": "zeroshot/phenicx_bruckner/score_mss_input_concat/cello.mp3",
+            "bass": "zeroshot/phenicx_bruckner/score_mss_input_concat/bass.mp3"
+          }
+        },
+        "score_mss_noaudio": {
+          "label": "Tunturi score-only",
+          "sdr": 2.31,
+          "tracks": {
+            "violin": "zeroshot/phenicx_bruckner/score_mss_noaudio/violin.mp3",
+            "viola": "zeroshot/phenicx_bruckner/score_mss_noaudio/viola.mp3",
+            "cello": "zeroshot/phenicx_bruckner/score_mss_noaudio/cello.mp3",
+            "bass": "zeroshot/phenicx_bruckner/score_mss_noaudio/bass.mp3"
+          }
+        }
+      },
+      "present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "table": "table3",
+      "piece": "symphony_092_1_orch",
+      "title": "symphony 092 1 orch",
+      "corpus": "SynthSOD",
+      "start_s": 0,
+      "duration": "06:40",
+      "gain": 1.0,
+      "mixture": "table3/symphony_092_1_orch/mixture.mp3",
+      "conditions": [
+        {
+          "id": "clean",
+          "label": "Clean score",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/clean/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/clean/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/clean/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/clean/a2_frame/bass.mp3"
+              },
+              "sdr": 6.54
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/clean/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/clean/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/clean/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/clean/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 6.06
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/clean/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/clean/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/clean/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/clean/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 4.06
+            }
+          }
+        },
+        {
+          "id": "jitter_400ms",
+          "label": "Onset jitter (400 ms)",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/jitter_400ms/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/jitter_400ms/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/jitter_400ms/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/jitter_400ms/a2_frame/bass.mp3"
+              },
+              "sdr": 6.31
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/jitter_400ms/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/jitter_400ms/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/jitter_400ms/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/jitter_400ms/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 5.52
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/jitter_400ms/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/jitter_400ms/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/jitter_400ms/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/jitter_400ms/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 3.09
+            }
+          }
+        },
+        {
+          "id": "offset_1000ms",
+          "label": "Global offset (1 s)",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/offset_1000ms/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/offset_1000ms/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/offset_1000ms/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/offset_1000ms/a2_frame/bass.mp3"
+              },
+              "sdr": 6.15
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/offset_1000ms/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/offset_1000ms/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/offset_1000ms/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/offset_1000ms/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 5.03
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/offset_1000ms/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/offset_1000ms/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/offset_1000ms/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/offset_1000ms/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 2.72
+            }
+          }
+        },
+        {
+          "id": "tempo_10pct",
+          "label": "Tempo scaling (10%)",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/tempo_10pct/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/tempo_10pct/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/tempo_10pct/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/tempo_10pct/a2_frame/bass.mp3"
+              },
+              "sdr": 5.89
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/tempo_10pct/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/tempo_10pct/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/tempo_10pct/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/tempo_10pct/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 4.35
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/tempo_10pct/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/tempo_10pct/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/tempo_10pct/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/tempo_10pct/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 1.69
+            }
+          }
+        },
+        {
+          "id": "pitch_50pct",
+          "label": "Pitch substitution (50%)",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/pitch_50pct/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/pitch_50pct/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/pitch_50pct/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/pitch_50pct/a2_frame/bass.mp3"
+              },
+              "sdr": 6.34
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/pitch_50pct/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/pitch_50pct/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/pitch_50pct/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/pitch_50pct/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 5.33
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/pitch_50pct/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/pitch_50pct/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/pitch_50pct/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/pitch_50pct/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 2.8
+            }
+          }
+        },
+        {
+          "id": "delete_75pct",
+          "label": "Note deletion (75%)",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/delete_75pct/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/delete_75pct/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/delete_75pct/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/delete_75pct/a2_frame/bass.mp3"
+              },
+              "sdr": 6.17
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/delete_75pct/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/delete_75pct/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/delete_75pct/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/delete_75pct/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 4.47
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/delete_75pct/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/delete_75pct/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/delete_75pct/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/delete_75pct/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 1.03
+            }
+          }
+        },
+        {
+          "id": "part_missing_2",
+          "label": "Missing parts (two)",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/part_missing_2/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/part_missing_2/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/part_missing_2/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/part_missing_2/a2_frame/bass.mp3"
+              },
+              "sdr": 6.18
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/part_missing_2/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/part_missing_2/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/part_missing_2/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/part_missing_2/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 5.36
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/part_missing_2/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/part_missing_2/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/part_missing_2/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/part_missing_2/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 3.08
+            }
+          }
+        },
+        {
+          "id": "relabel_100pct",
+          "label": "Instrument relabelling (100%)",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/relabel_100pct/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/relabel_100pct/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/relabel_100pct/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/relabel_100pct/a2_frame/bass.mp3"
+              },
+              "sdr": 4.97
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/relabel_100pct/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/relabel_100pct/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/relabel_100pct/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/relabel_100pct/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 3.67
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/relabel_100pct/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/relabel_100pct/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/relabel_100pct/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/relabel_100pct/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 0.0
+            }
+          }
+        },
+        {
+          "id": "swap_string_parts",
+          "label": "Part swaps (both pairs)",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/swap_string_parts/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/swap_string_parts/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/swap_string_parts/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/swap_string_parts/a2_frame/bass.mp3"
+              },
+              "sdr": 4.24
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/swap_string_parts/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/swap_string_parts/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/swap_string_parts/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/swap_string_parts/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 2.93
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/swap_string_parts/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/swap_string_parts/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/swap_string_parts/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/swap_string_parts/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 0.03
+            }
+          }
+        },
+        {
+          "id": "cut_20pct",
+          "label": "Structural cut (20%)",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/cut_20pct/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/cut_20pct/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/cut_20pct/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/cut_20pct/a2_frame/bass.mp3"
+              },
+              "sdr": 6.27
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/cut_20pct/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/cut_20pct/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/cut_20pct/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/cut_20pct/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 4.82
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/cut_20pct/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/cut_20pct/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/cut_20pct/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/cut_20pct/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 2.49
+            }
+          }
+        },
+        {
+          "id": "composite_severe",
+          "label": "Combined, severe",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/composite_severe/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/composite_severe/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/composite_severe/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/composite_severe/a2_frame/bass.mp3"
+              },
+              "sdr": 6.06
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/composite_severe/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/composite_severe/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/composite_severe/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/composite_severe/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 5.04
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/composite_severe/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/composite_severe/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/composite_severe/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/composite_severe/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 2.46
+            }
+          }
+        },
+        {
+          "id": "no_score",
+          "label": "Score withheld",
+          "models": {
+            "a2_frame": {
+              "label": "SCISSOR",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/no_score/a2_frame/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/no_score/a2_frame/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/no_score/a2_frame/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/no_score/a2_frame/bass.mp3"
+              },
+              "sdr": 6.08
+            },
+            "score_mss_input_concat": {
+              "label": "Tunturi score-informed",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/no_score/score_mss_input_concat/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/no_score/score_mss_input_concat/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/no_score/score_mss_input_concat/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/no_score/score_mss_input_concat/bass.mp3"
+              },
+              "sdr": 3.89
+            },
+            "score_mss_noaudio": {
+              "label": "Tunturi score-only",
+              "tracks": {
+                "violin": "table3/symphony_092_1_orch/no_score/score_mss_noaudio/violin.mp3",
+                "viola": "table3/symphony_092_1_orch/no_score/score_mss_noaudio/viola.mp3",
+                "cello": "table3/symphony_092_1_orch/no_score/score_mss_noaudio/cello.mp3",
+                "bass": "table3/symphony_092_1_orch/no_score/score_mss_noaudio/bass.mp3"
+              },
+              "sdr": 0.11
+            }
+          }
+        }
+      ],
+      "controls": {
+        "b2_no_score": {
+          "label": "SCISSOR (no score)",
+          "tracks": {
+            "violin": "table3/symphony_092_1_orch/controls/b2_no_score/violin.mp3",
+            "viola": "table3/symphony_092_1_orch/controls/b2_no_score/viola.mp3",
+            "cello": "table3/symphony_092_1_orch/controls/b2_no_score/cello.mp3",
+            "bass": "table3/symphony_092_1_orch/controls/b2_no_score/bass.mp3"
+          },
+          "sdr": 6.12
+        },
+        "score_mss_noscore": {
+          "label": "Tunturi baseline",
+          "tracks": {
+            "violin": "table3/symphony_092_1_orch/controls/score_mss_noscore/violin.mp3",
+            "viola": "table3/symphony_092_1_orch/controls/score_mss_noscore/viola.mp3",
+            "cello": "table3/symphony_092_1_orch/controls/score_mss_noscore/cello.mp3",
+            "bass": "table3/symphony_092_1_orch/controls/score_mss_noscore/bass.mp3"
+          },
+          "sdr": 5.84
+        }
+      }
+    }
+  ]
+}
